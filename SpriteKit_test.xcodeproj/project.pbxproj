@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39A4FEA31C687A7E00917951 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A4FEA11C687A7E00917951 /* background.jpg */; };
+		39A4FEA41C687A7E00917951 /* egucchi.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A4FEA21C687A7E00917951 /* egucchi.png */; };
+		39A4FEA71C6880A500917951 /* Futagami.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A4FEA51C6880A500917951 /* Futagami.png */; };
+		39A4FEA81C6880A500917951 /* yamasho.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A4FEA61C6880A500917951 /* yamasho.png */; };
+		39A4FEAA1C6882B300917951 /* やましょう.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A4FEA91C6882B300917951 /* やましょう.png */; };
 		9A3895CE1BDA24C700402150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3895CD1BDA24C700402150 /* AppDelegate.swift */; };
-		9A3895D01BDA24C700402150 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3895CF1BDA24C700402150 /* ViewController.swift */; };
+		9A3895D01BDA24C700402150 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3895CF1BDA24C700402150 /* GameViewController.swift */; };
 		9A3895D31BDA24C700402150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3895D11BDA24C700402150 /* Main.storyboard */; };
-		9A3895D51BDA24C700402150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3895D41BDA24C700402150 /* Assets.xcassets */; };
 		9A3895D81BDA24C700402150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3895D61BDA24C700402150 /* LaunchScreen.storyboard */; };
 		9A3895E31BDA24C700402150 /* SpriteKit_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3895E21BDA24C700402150 /* SpriteKit_testTests.swift */; };
 		9A3895EE1BDA24C700402150 /* SpriteKit_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3895ED1BDA24C700402150 /* SpriteKit_testUITests.swift */; };
+		9A3895FC1BDA252E00402150 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3895FB1BDA252E00402150 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39A4FEA11C687A7E00917951 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		39A4FEA21C687A7E00917951 /* egucchi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egucchi.png; sourceTree = "<group>"; };
+		39A4FEA51C6880A500917951 /* Futagami.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Futagami.png; sourceTree = "<group>"; };
+		39A4FEA61C6880A500917951 /* yamasho.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yamasho.png; sourceTree = "<group>"; };
+		39A4FEA91C6882B300917951 /* やましょう.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "やましょう.png"; sourceTree = "<group>"; };
 		9A3895CA1BDA24C700402150 /* SpriteKit_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKit_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3895CD1BDA24C700402150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9A3895CF1BDA24C700402150 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A3895CF1BDA24C700402150 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		9A3895D21BDA24C700402150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9A3895D41BDA24C700402150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A3895D71BDA24C700402150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A3895D91BDA24C700402150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A3895DE1BDA24C700402150 /* SpriteKit_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKit_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +56,7 @@
 		9A3895E91BDA24C700402150 /* SpriteKit_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKit_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3895ED1BDA24C700402150 /* SpriteKit_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKit_testUITests.swift; sourceTree = "<group>"; };
 		9A3895EF1BDA24C700402150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A3895FB1BDA252E00402150 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39A4FEA01C687A7E00917951 /* 素材 */ = {
+			isa = PBXGroup;
+			children = (
+				39A4FEA11C687A7E00917951 /* background.jpg */,
+				39A4FEA51C6880A500917951 /* Futagami.png */,
+				39A4FEA61C6880A500917951 /* yamasho.png */,
+				39A4FEA91C6882B300917951 /* やましょう.png */,
+				39A4FEA21C687A7E00917951 /* egucchi.png */,
+			);
+			path = "素材";
+			sourceTree = "<group>";
+		};
 		9A3895C11BDA24C700402150 = {
 			isa = PBXGroup;
 			children = (
@@ -97,10 +119,11 @@
 		9A3895CC1BDA24C700402150 /* SpriteKit_test */ = {
 			isa = PBXGroup;
 			children = (
+				39A4FEA01C687A7E00917951 /* 素材 */,
 				9A3895CD1BDA24C700402150 /* AppDelegate.swift */,
-				9A3895CF1BDA24C700402150 /* ViewController.swift */,
+				9A3895CF1BDA24C700402150 /* GameViewController.swift */,
+				9A3895FB1BDA252E00402150 /* GameScene.swift */,
 				9A3895D11BDA24C700402150 /* Main.storyboard */,
-				9A3895D41BDA24C700402150 /* Assets.xcassets */,
 				9A3895D61BDA24C700402150 /* LaunchScreen.storyboard */,
 				9A3895D91BDA24C700402150 /* Info.plist */,
 			);
@@ -229,8 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39A4FEA71C6880A500917951 /* Futagami.png in Resources */,
+				39A4FEA31C687A7E00917951 /* background.jpg in Resources */,
 				9A3895D81BDA24C700402150 /* LaunchScreen.storyboard in Resources */,
-				9A3895D51BDA24C700402150 /* Assets.xcassets in Resources */,
+				39A4FEAA1C6882B300917951 /* やましょう.png in Resources */,
+				39A4FEA41C687A7E00917951 /* egucchi.png in Resources */,
+				39A4FEA81C6880A500917951 /* yamasho.png in Resources */,
 				9A3895D31BDA24C700402150 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A3895D01BDA24C700402150 /* ViewController.swift in Sources */,
+				9A3895FC1BDA252E00402150 /* GameScene.swift in Sources */,
+				9A3895D01BDA24C700402150 /* GameViewController.swift in Sources */,
 				9A3895CE1BDA24C700402150 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +512,7 @@
 				9A3895F41BDA24C700402150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A3895F51BDA24C700402150 /* Build configuration list for PBXNativeTarget "SpriteKit_testTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +521,7 @@
 				9A3895F71BDA24C700402150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A3895F81BDA24C700402150 /* Build configuration list for PBXNativeTarget "SpriteKit_testUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +530,7 @@
 				9A3895FA1BDA24C700402150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
